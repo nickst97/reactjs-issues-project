@@ -14,7 +14,7 @@ This project is a small client application built using ReactJS and Next.js, util
 
 -   ReactJS
 -   Next.js
--   Typescript
+-   Material-UI
 -   HTML
 -   CSS
 -   Apollo GraphQL
