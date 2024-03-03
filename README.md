@@ -20,3 +20,5 @@ This project is a small client application built using ReactJS and Next.js, util
 -   Apollo GraphQL
 
 ### Screenshots
+
+![](https://raw.githubusercontent.com/nickst97/reactjs-issues-project/main/screencapture.png)
