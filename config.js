@@ -1,0 +1,6 @@
+export const MAX_RECORDS_TO_REQUEST = 100;
+export const ISSUES_PER_PAGE = 25;
+export const MAX_PAGES_TO_PRELOAD = Math.floor(
+	MAX_RECORDS_TO_REQUEST / ISSUES_PER_PAGE
+);
+export const DEFAULT_ISSUE_STATE = "OPEN";

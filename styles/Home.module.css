@@ -1,0 +1,52 @@
+.top_container {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.top_container button {
+	width: 80px;
+}
+
+.list_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.list_container span {
+	word-wrap: break-word;
+}
+
+.list_container ul {
+	width: 100%;
+}
+
+.loading_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	min-height: 100vh;
+}
+
+.pagination_container {
+	display: flex;
+	margin: auto;
+}
+.custom_CheckCircleIcon {
+	color: #8a65a3;
+}
+
+.custom_AdjustIcon {
+	color: #489657;
+}
+
+@media screen and (max-width: 550px) {
+	.top_container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
